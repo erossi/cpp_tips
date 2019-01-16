@@ -19,7 +19,7 @@ Compile with:
 
 */
 
-/* The scope is to create two classed with pre-defined
+/* Create two classes with pre-defined
  * static functions, add these functions to a catalog and then
  * use the catalog to trigger all these functions.
  *
