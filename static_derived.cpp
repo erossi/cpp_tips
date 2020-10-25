@@ -16,8 +16,13 @@
 
 Compile with:
  g++ -Wall -pedantic -std=c++14 -g <ThisFilename.cpp>
-
 */
+
+/*! Demonstrate a static catalog for client class callbacks.
+ *
+ * \warning This code does NOT handle the delete of a registered client,
+ * doing so will segfault once the dangling pointer in the catalog is called.
+ */
 
 #include <iostream>
 
